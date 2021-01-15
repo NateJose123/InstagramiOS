@@ -15,6 +15,7 @@
 		7845AF8925B2387400470540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7845AF8725B2387400470540 /* LaunchScreen.storyboard */; };
 		7845AF9425B2387400470540 /* InstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7845AF9325B2387400470540 /* InstagramTests.swift */; };
 		7845AF9F25B2387400470540 /* InstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7845AF9E25B2387400470540 /* InstagramUITests.swift */; };
+		7845AFBB25B2398D00470540 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7845AFBA25B2398D00470540 /* MainTabController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7845AF9A25B2387400470540 /* InstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7845AF9E25B2387400470540 /* InstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramUITests.swift; sourceTree = "<group>"; };
 		7845AFA025B2387400470540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7845AFBA25B2398D00470540 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,12 @@
 		7845AF7B25B2387100470540 /* Instagram */ = {
 			isa = PBXGroup;
 			children = (
+				7845AFB625B238C700470540 /* Model */,
+				7845AFB525B238C400470540 /* View */,
+				7845AFB425B238C200470540 /* ViewModel */,
+				7845AFB325B238BE00470540 /* Controller */,
+				7845AFB225B238BB00470540 /* API */,
+				7845AFAF25B238B200470540 /* Utils */,
 				7845AF7C25B2387100470540 /* AppDelegate.swift */,
 				7845AF7E25B2387100470540 /* SceneDelegate.swift */,
 				7845AF8025B2387100470540 /* ViewController.swift */,
@@ -126,6 +134,49 @@
 				7845AFA025B2387400470540 /* Info.plist */,
 			);
 			path = InstagramUITests;
+			sourceTree = "<group>";
+		};
+		7845AFAF25B238B200470540 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7845AFB225B238BB00470540 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		7845AFB325B238BE00470540 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7845AFBA25B2398D00470540 /* MainTabController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7845AFB425B238C200470540 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7845AFB525B238C400470540 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7845AFB625B238C700470540 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +311,7 @@
 			files = (
 				7845AF8125B2387100470540 /* ViewController.swift in Sources */,
 				7845AF7D25B2387100470540 /* AppDelegate.swift in Sources */,
+				7845AFBB25B2398D00470540 /* MainTabController.swift in Sources */,
 				7845AF7F25B2387100470540 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
